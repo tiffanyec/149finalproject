@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/vrpn_client_ws/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/vrpn_client_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/vrpn_client_ws/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/vrpn_client_ws/build
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build: std_msgs_gen
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build
 
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	cd /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/eecs149_rst/vrpn_client_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/vrpn_client_ws/src /home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros /home/eecs149_rst/vrpn_client_ws/build /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eecs149_rst/149finalproject/vrpn_client_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/149finalproject/vrpn_client_ws/src /home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros /home/eecs149_rst/149finalproject/vrpn_client_ws/build /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

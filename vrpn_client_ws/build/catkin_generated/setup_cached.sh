@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/eecs149_rst/vrpn_client_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/eecs149_rst/vrpn_client_ws/devel/lib:$LD_LIBRARY_PATH"
-export PWD="/home/eecs149_rst/vrpn_client_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/eecs149_rst/vrpn_client_ws/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/eecs149_rst/vrpn_client_ws/src:$ROS_PACKAGE_PATH"
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
+export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
+export PWD="/home/eecs149_rst/149finalproject/vrpn_client_ws/build"
+export ROS_PACKAGE_PATH="/home/eecs149_rst/149finalproject/vrpn_client_ws/src:/opt/ros/kinetic/share"

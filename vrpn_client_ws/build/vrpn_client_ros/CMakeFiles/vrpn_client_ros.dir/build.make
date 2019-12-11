@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/vrpn_client_ws/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/vrpn_client_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/vrpn_client_ws/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/vrpn_client_ws/build
 
 # Include any dependencies generated for this target.
 include vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/depend.make
@@ -58,17 +58,17 @@ include vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/progress.make
 include vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/flags.make
 
 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/flags.make
-vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o: /home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o"
-	cd /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o -c /home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp
+vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o: /home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o"
+	cd /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o -c /home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp
 
 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.i"
-	cd /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp > CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.i
+	cd /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp > CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.i
 
 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.s"
-	cd /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.s
+	cd /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.s
 
 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o.requires:
 
@@ -88,39 +88,39 @@ vrpn_client_ros_OBJECTS = \
 # External object files for target vrpn_client_ros
 vrpn_client_ros_EXTERNAL_OBJECTS =
 
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/build.make
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libtf2.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/librostime.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libvrpn.a
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libquat.a
-/home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so"
-	cd /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vrpn_client_ros.dir/link.txt --verbose=$(VERBOSE)
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/build.make
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libtf2.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/librostime.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libvrpn.a
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: /opt/ros/kinetic/lib/libquat.a
+/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so"
+	cd /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vrpn_client_ros.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/build: /home/eecs149_rst/vrpn_client_ws/devel/lib/libvrpn_client_ros.so
+vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/build: /home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib/libvrpn_client_ros.so
 
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/build
 
@@ -129,10 +129,10 @@ vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/requires: vrpn_client_ros/CMakeFi
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/requires
 
 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/clean:
-	cd /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros && $(CMAKE_COMMAND) -P CMakeFiles/vrpn_client_ros.dir/cmake_clean.cmake
+	cd /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros && $(CMAKE_COMMAND) -P CMakeFiles/vrpn_client_ros.dir/cmake_clean.cmake
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/clean
 
 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/depend:
-	cd /home/eecs149_rst/vrpn_client_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/vrpn_client_ws/src /home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros /home/eecs149_rst/vrpn_client_ws/build /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros /home/eecs149_rst/vrpn_client_ws/build/vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eecs149_rst/149finalproject/vrpn_client_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/149finalproject/vrpn_client_ws/src /home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros /home/eecs149_rst/149finalproject/vrpn_client_ws/build /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros /home/eecs149_rst/149finalproject/vrpn_client_ws/build/vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/depend
 

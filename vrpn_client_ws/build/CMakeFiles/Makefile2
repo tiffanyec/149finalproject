@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/vrpn_client_ws/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/vrpn_client_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/vrpn_client_ws/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/vrpn_client_ws/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/clean_test_results.dir
@@ -66,14 +66,14 @@ CMAKE_BINARY_DIR = /home/eecs149_rst/vrpn_client_ws/build
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -98,14 +98,14 @@ clean: CMakeFiles/clean_test_results.dir/clean
 CMakeFiles/run_tests.dir/all: vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/all
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -130,14 +130,14 @@ clean: CMakeFiles/run_tests.dir/clean
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -162,14 +162,14 @@ clean: CMakeFiles/download_extra_data.dir/clean
 CMakeFiles/tests.dir/all:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -194,14 +194,14 @@ clean: CMakeFiles/tests.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -296,14 +296,14 @@ vrpn_client_ros/preinstall:
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros_roslaunch-check_launch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros_roslaunch-check_launch"
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/rule
 
 # Convenience name for target.
@@ -328,14 +328,14 @@ clean: vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_laun
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/all: vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros_roslaunch-check"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros_roslaunch-check"
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -360,14 +360,14 @@ clean: vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check.dir
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -392,14 +392,14 @@ clean: vrpn_client_ros/CMakeFiles/roscpp_generate_messages_py.dir/clean
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -424,14 +424,14 @@ clean: vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -456,14 +456,14 @@ clean: vrpn_client_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -488,14 +488,14 @@ clean: vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -520,14 +520,14 @@ clean: vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -553,14 +553,14 @@ vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/all: C
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/all: vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros_roslint_package"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros_roslint_package"
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/rule
 
 # Convenience name for target.
@@ -585,14 +585,14 @@ clean: vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -617,14 +617,14 @@ clean: vrpn_client_ros/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -649,14 +649,14 @@ clean: vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/cle
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -681,14 +681,14 @@ clean: vrpn_client_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -713,14 +713,14 @@ clean: vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -745,14 +745,14 @@ clean: vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cle
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -777,14 +777,14 @@ clean: vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -809,14 +809,14 @@ clean: vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -841,14 +841,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/clean
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/all: vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check_launch.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros_roslaunch-check"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros_roslaunch-check"
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -873,14 +873,14 @@ clean: vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslaunch-check.dir/
 vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target clean_test_results_vrpn_client_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target clean_test_results_vrpn_client_ros"
 .PHONY : vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/rule
 
 # Convenience name for target.
@@ -905,14 +905,14 @@ clean: vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/clean
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -937,14 +937,14 @@ clean: vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -969,14 +969,14 @@ clean: vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1002,14 +1002,14 @@ vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/all: vrpn_client_ros/CMakeFiles/clean_test_results_vrpn_client_ros.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros_roslaunch-check_launch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros_roslaunch-check_launch"
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_launch.dir/rule
 
 # Convenience name for target.
@@ -1034,14 +1034,14 @@ clean: vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslaunch-check_lau
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1066,14 +1066,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1098,14 +1098,14 @@ clean: vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1130,14 +1130,14 @@ clean: vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1162,14 +1162,14 @@ clean: vrpn_client_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1194,14 +1194,14 @@ clean: vrpn_client_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1226,14 +1226,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1258,14 +1258,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1290,14 +1290,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_generate_messages_py.dir/clean
 vrpn_client_ros/CMakeFiles/roslint.dir/all: vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roslint.dir/build.make vrpn_client_ros/CMakeFiles/roslint.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roslint.dir/build.make vrpn_client_ros/CMakeFiles/roslint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roslint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roslint"
 .PHONY : vrpn_client_ros/CMakeFiles/roslint.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/roslint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/roslint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/roslint.dir/rule
 
 # Convenience name for target.
@@ -1322,14 +1322,14 @@ clean: vrpn_client_ros/CMakeFiles/roslint.dir/clean
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1354,14 +1354,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/clean
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1386,14 +1386,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1418,14 +1418,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clea
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1450,14 +1450,14 @@ clean: vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1482,14 +1482,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cl
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1514,7 +1514,7 @@ clean: vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/all: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/build.make vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/build.make vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num=5,6 "Built target vrpn_tracker_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num=5,6 "Built target vrpn_tracker_node"
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/all
 
 # Include target in all.
@@ -1524,9 +1524,9 @@ all: vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/rule
 
 # Convenience name for target.
@@ -1551,7 +1551,7 @@ clean: vrpn_client_ros/CMakeFiles/vrpn_tracker_node.dir/clean
 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num=3,4 "Built target vrpn_client_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num=3,4 "Built target vrpn_client_ros"
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/all
 
 # Include target in all.
@@ -1561,9 +1561,9 @@ all: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/rule
 
 # Convenience name for target.
@@ -1588,7 +1588,7 @@ clean: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/clean
 vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/all: vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/build.make vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/build.make vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num=1,2 "Built target vrpn_client_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num=1,2 "Built target vrpn_client_node"
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/all
 
 # Include target in all.
@@ -1598,9 +1598,9 @@ all: vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/rule
 
 # Convenience name for target.
@@ -1625,14 +1625,14 @@ clean: vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/clean
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1657,14 +1657,14 @@ clean: vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean
 vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roslint_vrpn_client_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target roslint_vrpn_client_ros"
 .PHONY : vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/roslint_vrpn_client_ros.dir/rule
 
 # Convenience name for target.
@@ -1690,14 +1690,14 @@ vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/all: vrpn_client_ros/CM
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/all: vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros"
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/rule
 
 # Convenience name for target.
@@ -1722,14 +1722,14 @@ clean: vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros.dir/clean
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1755,14 +1755,14 @@ vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/all: vrpn_client_ros/C
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/all: vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros"
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/rule
 
 # Convenience name for target.
@@ -1787,14 +1787,14 @@ clean: vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros.dir/clean
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/all: vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros_roslint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros_roslint"
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/rule
 
 # Convenience name for target.
@@ -1819,14 +1819,14 @@ clean: vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint.dir/clean
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1851,14 +1851,14 @@ clean: vrpn_client_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/build.make vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros_roslint_package"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target run_tests_vrpn_client_ros_roslint_package"
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/rule
 
 # Convenience name for target.
@@ -1883,14 +1883,14 @@ clean: vrpn_client_ros/CMakeFiles/run_tests_vrpn_client_ros_roslint_package.dir/
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/all:
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build.make vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1915,14 +1915,14 @@ clean: vrpn_client_ros/CMakeFiles/actionlib_generate_messages_eus.dir/clean
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/all: vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint_package.dir/all
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/depend
 	$(MAKE) -f vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/build.make vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros_roslint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles --progress-num= "Built target _run_tests_vrpn_client_ros_roslint"
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/all
 
 # Build rule for subdir invocation for target.
 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/vrpn_client_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/vrpn_client_ws/build/CMakeFiles 0
 .PHONY : vrpn_client_ros/CMakeFiles/_run_tests_vrpn_client_ros_roslint.dir/rule
 
 # Convenience name for target.

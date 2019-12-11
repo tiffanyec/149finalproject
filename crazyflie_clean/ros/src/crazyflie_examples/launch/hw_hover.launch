@@ -13,8 +13,8 @@
 
 
 <!-- OLD  -->
-  <arg name="uri0" value="radio://0/80/2M/E7E7E7E7E7" />
-  <!-- <arg name="uri0" value="radio://0/80/2M/E7E7E7ECCA" /> -->
+  <!-- <arg name="uri0" value="radio://0/80/2M/E7E7E7E7E7" /> -->
+  <arg name="uri0" value="radio://0/80/2M/E7E7E7ECCA" />
   <arg name="uri1" value="radio://2/101/2M/E7E7E7E701" />
   <arg name="uri2" value="radio://0/88/2M/E7E7E7E705" />
   <arg name="uri3" value="radio://0/93/2M/E7E7E7E703" />
@@ -87,7 +87,7 @@
       <arg name="enable_logging" value="True" />
     </include>
 
-<!--
+
     <node name="joy" pkg="joy" type="joy_node" output="screen">
       <param name="dev" value="$(arg joy_dev)" />
     </node>
@@ -95,7 +95,7 @@
     <node name="joystick_controller" pkg="crazyflie_demo" type="controller.py" output="screen">
       <param name="use_crazyflie_controller" value="True" />
     </node>
--->
+
   </group>
 
   <!-- Takeoff server node. -->

@@ -176,13 +176,13 @@ namespace vrpn_client_ros
         tracker->pose_msg_.header.stamp = ros::Time::now();
       }
 
-      tracker->pose_msg_.pose.position.x = tracker_pose.pos[0];
-      tracker->pose_msg_.pose.position.y = tracker_pose.pos[1];
-      tracker->pose_msg_.pose.position.z = tracker_pose.pos[2];
+      tracker->pose_msg_.pose.position.x = -1*tracker_pose.pos[0];
+      tracker->pose_msg_.pose.position.z = tracker_pose.pos[1];
+      tracker->pose_msg_.pose.position.y = tracker_pose.pos[2];
 
-      tracker->pose_msg_.pose.orientation.x = tracker_pose.quat[0];
-      tracker->pose_msg_.pose.orientation.y = tracker_pose.quat[1];
-      tracker->pose_msg_.pose.orientation.z = tracker_pose.quat[2];
+      tracker->pose_msg_.pose.orientation.x = -1*tracker_pose.quat[0];
+      tracker->pose_msg_.pose.orientation.z = tracker_pose.quat[1];
+      tracker->pose_msg_.pose.orientation.y = tracker_pose.quat[2];
       tracker->pose_msg_.pose.orientation.w = tracker_pose.quat[3];
 
       pose_pub->publish(tracker->pose_msg_);
@@ -211,13 +211,13 @@ namespace vrpn_client_ros
         tracker->transform_stamped_.child_frame_id = tracker->tracker_name;
       }
 
-      tracker->transform_stamped_.transform.translation.x = tracker_pose.pos[0];
-      tracker->transform_stamped_.transform.translation.y = tracker_pose.pos[1];
-      tracker->transform_stamped_.transform.translation.z = tracker_pose.pos[2];
+      tracker->transform_stamped_.transform.translation.x = -1*tracker_pose.pos[0];
+      tracker->transform_stamped_.transform.translation.z = tracker_pose.pos[1];
+      tracker->transform_stamped_.transform.translation.y = tracker_pose.pos[2];
 
-      tracker->transform_stamped_.transform.rotation.x = tracker_pose.quat[0];
-      tracker->transform_stamped_.transform.rotation.y = tracker_pose.quat[1];
-      tracker->transform_stamped_.transform.rotation.z = tracker_pose.quat[2];
+      tracker->transform_stamped_.transform.rotation.x = -1*tracker_pose.quat[0];
+      tracker->transform_stamped_.transform.rotation.z = tracker_pose.quat[1];
+      tracker->transform_stamped_.transform.rotation.y = tracker_pose.quat[2];
       tracker->transform_stamped_.transform.rotation.w = tracker_pose.quat[3];
 
       tf_broadcaster.sendTransform(tracker->transform_stamped_);
@@ -261,9 +261,9 @@ namespace vrpn_client_ros
         tracker->twist_msg_.header.stamp = ros::Time::now();
       }
 
-      tracker->twist_msg_.twist.linear.x = tracker_twist.vel[0];
-      tracker->twist_msg_.twist.linear.y = tracker_twist.vel[1];
-      tracker->twist_msg_.twist.linear.z = tracker_twist.vel[2];
+      tracker->twist_msg_.twist.linear.x = -1*tracker_twist.vel[0];
+      tracker->twist_msg_.twist.linear.z = tracker_twist.vel[1];
+      tracker->twist_msg_.twist.linear.y = tracker_twist.vel[2];
 
       double roll, pitch, yaw;
       tf2::Matrix3x3 rot_mat(
@@ -271,9 +271,9 @@ namespace vrpn_client_ros
                           tracker_twist.vel_quat[3]));
       rot_mat.getRPY(roll, pitch, yaw);
 
-      tracker->twist_msg_.twist.angular.x = roll;
-      tracker->twist_msg_.twist.angular.y = pitch;
-      tracker->twist_msg_.twist.angular.z = yaw;
+      tracker->twist_msg_.twist.angular.x = -1*roll;
+      tracker->twist_msg_.twist.angular.z = pitch;
+      tracker->twist_msg_.twist.angular.y = yaw;
 
       twist_pub->publish(tracker->twist_msg_);
     }
@@ -316,9 +316,9 @@ namespace vrpn_client_ros
         tracker->accel_msg_.header.stamp = ros::Time::now();
       }
 
-      tracker->accel_msg_.accel.linear.x = tracker_accel.acc[0];
-      tracker->accel_msg_.accel.linear.y = tracker_accel.acc[1];
-      tracker->accel_msg_.accel.linear.z = tracker_accel.acc[2];
+      tracker->accel_msg_.accel.linear.x = -1*tracker_accel.acc[0];
+      tracker->accel_msg_.accel.linear.z = tracker_accel.acc[1];
+      tracker->accel_msg_.accel.linear.y = tracker_accel.acc[2];
 
       double roll, pitch, yaw;
       tf2::Matrix3x3 rot_mat(
@@ -326,9 +326,9 @@ namespace vrpn_client_ros
                           tracker_accel.acc_quat[3]));
       rot_mat.getRPY(roll, pitch, yaw);
 
-      tracker->accel_msg_.accel.angular.x = roll;
-      tracker->accel_msg_.accel.angular.y = pitch;
-      tracker->accel_msg_.accel.angular.z = yaw;
+      tracker->accel_msg_.accel.angular.x = -1*roll;
+      tracker->accel_msg_.accel.angular.z = pitch;
+      tracker->accel_msg_.accel.angular.y = yaw;
 
       accel_pub->publish(tracker->accel_msg_);
     }

@@ -67,14 +67,14 @@ set(vrpn_client_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(vrpn_client_ros_SOURCE_PREFIX /home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros)
-  set(vrpn_client_ros_DEVEL_PREFIX /home/eecs149_rst/vrpn_client_ws/devel)
+  set(vrpn_client_ros_SOURCE_PREFIX /home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros)
+  set(vrpn_client_ros_DEVEL_PREFIX /home/eecs149_rst/149finalproject/vrpn_client_ws/devel)
   set(vrpn_client_ros_INSTALL_PREFIX "")
   set(vrpn_client_ros_PREFIX ${vrpn_client_ros_DEVEL_PREFIX})
 else()
   set(vrpn_client_ros_SOURCE_PREFIX "")
   set(vrpn_client_ros_DEVEL_PREFIX "")
-  set(vrpn_client_ros_INSTALL_PREFIX /home/eecs149_rst/vrpn_client_ws/install)
+  set(vrpn_client_ros_INSTALL_PREFIX /home/eecs149_rst/149finalproject/vrpn_client_ws/install)
   set(vrpn_client_ros_PREFIX ${vrpn_client_ros_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(vrpn_client_ros_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros/include;/opt/ros/kinetic/include " STREQUAL " ")
+if(NOT "/home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros/include;/opt/ros/kinetic/include " STREQUAL " ")
   set(vrpn_client_ros_INCLUDE_DIRS "")
-  set(_include_dirs "/home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros/include;/opt/ros/kinetic/include")
+  set(_include_dirs "/home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros/include;/opt/ros/kinetic/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros/include;/opt/ros/ki
         message(FATAL_ERROR "Project 'vrpn_client_ros' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'vrpn_client_ros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/eecs149_rst/vrpn_client_ws/src/vrpn_client_ros/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'vrpn_client_ros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros/${idir}'.  ${_report}")
     endif()
     _list_append_unique(vrpn_client_ros_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/eecs149_rst/vrpn_client_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib;/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
