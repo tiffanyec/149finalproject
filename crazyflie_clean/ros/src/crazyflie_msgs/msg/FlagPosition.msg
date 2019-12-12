@@ -1,0 +1,2 @@
+Bool flag
+PoseStamped pose

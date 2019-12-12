@@ -10,30 +10,21 @@ import sys
 import reactive
 from DFALib import DFA, ExplicitDFA
 
-k = 7
-alphabet = { (1,0), (-1,0), (0,1), (0,-1) }
-clamp = lambda x: max(0, min(k-1, x))
-low = k // 3
-mid = k // 2
-high = (2 * k) // 3
-assert low < mid
-assert mid < high
-targets = ((low, low), (low, high), (high, low), (high, high))
-advNoFly = set(targets) | { (mid, mid) }
-#print(targets)
-#print(advNoFly)
+
 
 class RCIDrone:
 
-    def __init__(self, k, n, targets, alphabet, verbose=False):
+    def __init__(self, k, n, targets, verbose=False):
         # print(k, n, targets, alphabet)
         self.targets = targets
-        self.alphabet = alphabet
+        self.alphabet = { (1,0), (-1,0), (0,1), (0,-1) }
         self.k = k
         self.n = n
         self.verbose = verbose
         self.impro = self.createImpro()
 
+    def clamp(self, x):
+        return max(0, min(self.k -1, x))
 
     def spec(self, advPos, disallowRepeats=False):
     	numLocs = len(self.targets)
@@ -61,7 +52,7 @@ class RCIDrone:
     					transitions = delta[state]
     					for symbol in self.alphabet:
     						dx, dy = symbol
-    						newLoc = (clamp(loc[0] + dx), clamp(loc[1] + dy))
+    						newLoc = (self.clamp(loc[0] + dx), self.clamp(loc[1] + dy))
     						o = 1 - p
     						if p == 1 and newLoc in advNoFly:	# adv made illegal move
     							transitions[symbol] = success
