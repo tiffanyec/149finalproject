@@ -40,13 +40,13 @@ class Flier():
 		self.isHovering = True
 
 	def hover(self):
-		
+
 		while not rospy.is_shutdown():
 			if self.state == 0:
 				print("Taking off")
 				self.takeoff()
 				self.state = 1
-    			
+
 			rospy.spin()
 		flier.land()
 

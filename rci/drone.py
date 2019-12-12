@@ -112,7 +112,10 @@ def runAgainst(impro, adversary, advPos=(k-1, k-1), replanner=None):
 	step = None
 	while True:
 		try:
+			print("Adversary move: ", step)
 			step = it.send(step)
+			print("Improviser move: ", step)
+			# print("STEP: ", step)
 			step = step[0]
 			mpos[0] = clamp(mpos[0] + step[0])
 			mpos[1] = clamp(mpos[1] + step[1])
@@ -280,4 +283,3 @@ if __name__ == "__main__":
 			usage()
 		if tester is not None:
 			genPaths(tester, paths=numPaths)
-	
