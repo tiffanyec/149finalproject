@@ -3,6 +3,7 @@
 #Crazyflie publisher node
 
 import rospy
+import numpy as np
 from crazyflie_msgs.msg import PositionVelocityState
 from crazyflie_msgs.msg import PositionVelocityStateStamped
 from geometry_msgs.msg import PoseStamped
@@ -18,8 +19,8 @@ class Flier():
 
 		self.posVelState = PositionVelocityState()
 		self.posVelStateStamped = PositionVelocityStateStamped()
-		self.delta = 0.3    #TODO
-		self.time = 2     #TODO
+		self.delta = 0.3    
+		self.time = 2     
 		self.tolerance = 0.05
 		self.isHovering = False
 
@@ -34,6 +35,12 @@ class Flier():
 		self.takeoff = rospy.ServiceProxy('/takeoff', Empty)
 
 		self.state = 0
+		self.landed = False
+
+	def findPoint(self, x, y):
+		ref_x = (x - 3)*self.delta
+		ref_y = (y - 3)*self.delta
+		return ref_x, ref_y
 
 	def up(self, msg):
 		print("hovering")
@@ -48,44 +55,54 @@ class Flier():
 				self.state = 1
 
 			rospy.spin()
+		self.landed = True
 		flier.land()
+		
 
 	def fly(self, msg):
-		print(msg.pose.position)
-		# dronePos = msg.pose.position
-		# dronex = dronePos.x
-		# droney = dronePos.y
-		# dronez = dronePos.z
+		# print(msg.pose.position)
 
 		if self.isHovering:
-			self.flyToPlace(msg, self.delta, self.delta)
-			# if self.state == 1:
+			print(self.state)
+			dronePos = msg.pose.position
+			dronex = dronePos.x
+			droney = dronePos.y
+			dronez = dronePos.z
+			print(msg.pose.position.x, msg.pose.position.y)
+			# rospy.sleep(5)
+			if self.state == 1:
+				des_x, des_y = 3*self.delta, 3*self.delta
+				self.flyToPlace(msg, des_x, des_y)
+				if np.absolute(dronex - des_x) <= self.tolerance and np.absolute(droney - des_y) <= self.tolerance:
+					self.state = 2
 
-			# 	self.posVelState.x = self.delta
-			# 	self.posVelState.y = self.delta
-			# 	self.posVelState.z = 2.0
+				print(msg.pose.position.x, msg.pose.position.y)
+				# rospy.sleep(5)
 
-			# 	self.posVelState.x_dot = (self.delta - dronex) / self.time
-			# 	self.posVelState.y_dot = (self.delta - droney) / self.time
-			# 	self.posVelState.z_dot = 0.0
+			elif self.state == 2:
+				des_x, des_y = -3*self.delta, 3*self.delta
+				self.flyToPlace(msg, des_x, des_y)
+				if np.absolute(dronex - des_x) <= self.tolerance and np.absolute(droney - des_y) <= self.tolerance:
+					self.state = 3
+				print(msg.pose.position.x, msg.pose.position.y)
+				# rospy.sleep(5)
 
-			# 	self.posVelStateStamped.state = self.posVelState
+			elif self.state == 3:
+				des_x, des_y = -3*self.delta, -3*self.delta
+				self.flyToPlace(msg, des_x, des_y)
+				if np.absolute(dronex - des_x) <= self.tolerance and np.absolute(droney - des_y) <= self.tolerance:
+					self.state = 4
+				print(msg.pose.position.x, msg.pose.position.y)
+				# rospy.sleep(5)
 
-			# 	self.pub.publish(self.posVelStateStamped)
-			# 	self.state = 2
-			# 	rospy.sleep(20)
-			# elif self.state == 2:
-			# 	self.posVelState.x = 0.0
-			# 	self.posVelState.y = 0.0
-			# 	self.posVelState.z = 2.0
-
-			# 	self.posVelState.x_dot = (0.0 - dronex) / self.time
-			# 	self.posVelState.y_dot = (0.0 - droney) / self.time
-			# 	self.posVelState.z_dot = 0.0
-
-			# 	self.posVelStateStamped.state = self.posVelState
-
-			# 	self.pub.publish(self.posVelStateStamped)
+			elif self.state == 4:
+				des_x, des_y = 3*self.delta, -3*self.delta
+				self.flyToPlace(msg, des_x, des_y)
+				if np.absolute(dronex - des_x) <= self.tolerance and np.absolute(droney - des_y) <= self.tolerance:
+					self.state = 1
+				print(msg.pose.position.x, msg.pose.position.y)
+				# rospy.sleep(5)
+			
 
 	def flyToPlace(self, msg, place_x, place_y):
 		dronePos = msg.pose.position
@@ -95,7 +112,7 @@ class Flier():
 
 		self.posVelState.x = place_x
 		self.posVelState.y = place_y
-		self.posVelState.z = dronez
+		self.posVelState.z = 1.5
 
 		self.posVelState.x_dot = (place_x - dronex) / self.time
 		self.posVelState.y_dot = (place_y - droney) / self.time
@@ -115,4 +132,6 @@ if __name__=='__main__':
 		print("Trying to hover")
 		flier.hover()
 	except:
-		pass
+		print("whoops")
+		if not flier.landed:
+			flier.land()
