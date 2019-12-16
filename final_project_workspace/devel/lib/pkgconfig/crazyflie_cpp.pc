@@ -1,0 +1,8 @@
+prefix=/home/eecs149_rst/final_project_workspace/devel
+
+Name: crazyflie_cpp
+Description: Description of crazyflie_cpp
+Version: 0.0.1
+Cflags: -I/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include
+Libs: -L/home/eecs149_rst/final_project_workspace/devel/lib -lcrazyflie_cpp
+Requires: 

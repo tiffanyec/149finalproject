@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyflie.h
+cstring
+-
+Crazyradio.h
+/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyradio.h
+crtp.h
+/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/crtp.h
+functional
+-
+list
+-
+set
+-
+map
+-
+iostream
+-
+
+/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyradio.h
+stdint.h
+-
+vector
+-
+
+/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/crtp.h
+
+/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_tools/src/reboot.cpp
+iostream
+-
+boost/program_options.hpp
+-
+crazyflie_cpp/Crazyflie.h
+-
+

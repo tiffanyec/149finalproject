@@ -1,0 +1,2 @@
+set(crazyflie_msgs_MESSAGE_FILES "msg/PrioritizedControlStamped.msg;msg/Control.msg;msg/FullState.msg;msg/FullStateStamped.msg;msg/FlagPosition.msg;msg/PositionVelocityYawStateStamped.msg;msg/PositionVelocityYawState.msg;msg/PositionVelocityStateStamped.msg;msg/ControlStamped.msg;msg/PositionVelocityState.msg;msg/PrioritizedControl.msg;msg/NoYawControl.msg;msg/NoYawControlStamped.msg")
+set(crazyflie_msgs_SERVICE_FILES "")
