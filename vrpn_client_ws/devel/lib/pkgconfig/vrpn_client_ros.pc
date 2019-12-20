@@ -1,8 +1,0 @@
-prefix=/home/eecs149_rst/149finalproject/vrpn_client_ws/devel
-
-Name: vrpn_client_ros
-Description: Description of vrpn_client_ros
-Version: 0.2.2
-Cflags: -I/home/eecs149_rst/149finalproject/vrpn_client_ws/src/vrpn_client_ros/include -I/opt/ros/kinetic/include
-Libs: -L/home/eecs149_rst/149finalproject/vrpn_client_ws/devel/lib -lvrpn_client_ros /opt/ros/kinetic/lib/libvrpn.a /opt/ros/kinetic/lib/libquat.a -lm -l-lpthread
-Requires: geometry_msgs tf2_ros
