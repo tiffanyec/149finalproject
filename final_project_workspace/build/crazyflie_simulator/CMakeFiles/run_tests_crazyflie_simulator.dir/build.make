@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/final_project_workspace/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/final_project_workspace/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/build
 
 # Utility rule file for run_tests_crazyflie_simulator.
 
@@ -63,10 +63,10 @@ crazyflie_simulator/CMakeFiles/run_tests_crazyflie_simulator.dir/build: run_test
 .PHONY : crazyflie_simulator/CMakeFiles/run_tests_crazyflie_simulator.dir/build
 
 crazyflie_simulator/CMakeFiles/run_tests_crazyflie_simulator.dir/clean:
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_simulator && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_crazyflie_simulator.dir/cmake_clean.cmake
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_simulator && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_crazyflie_simulator.dir/cmake_clean.cmake
 .PHONY : crazyflie_simulator/CMakeFiles/run_tests_crazyflie_simulator.dir/clean
 
 crazyflie_simulator/CMakeFiles/run_tests_crazyflie_simulator.dir/depend:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/final_project_workspace/src /home/eecs149_rst/final_project_workspace/src/crazyflie_simulator /home/eecs149_rst/final_project_workspace/build /home/eecs149_rst/final_project_workspace/build/crazyflie_simulator /home/eecs149_rst/final_project_workspace/build/crazyflie_simulator/CMakeFiles/run_tests_crazyflie_simulator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/149finalproject/final_project_workspace/src /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_simulator /home/eecs149_rst/149finalproject/final_project_workspace/build /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_simulator /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_simulator/CMakeFiles/run_tests_crazyflie_simulator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_simulator/CMakeFiles/run_tests_crazyflie_simulator.dir/depend
 

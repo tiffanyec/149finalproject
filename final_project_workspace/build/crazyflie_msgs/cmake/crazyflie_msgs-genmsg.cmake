@@ -2,7 +2,7 @@
 
 message(STATUS "crazyflie_msgs: 13 messages, 0 services")
 
-set(MSG_I_FLAGS "-Icrazyflie_msgs:/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Icrazyflie_msgs:/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,69 +17,69 @@ add_custom_target(crazyflie_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" "std_msgs/Header:crazyflie_msgs/PositionVelocityState"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" ""
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" "crazyflie_msgs/Control"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" ""
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" "crazyflie_msgs/Control:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" "std_msgs/Header:crazyflie_msgs/FullState"
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" ""
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" "crazyflie_msgs/NoYawControl:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" ""
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" "crazyflie_msgs/Control"
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" "crazyflie_msgs/FullState:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" ""
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" "crazyflie_msgs/PrioritizedControl:std_msgs/Header:crazyflie_msgs/Control"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" "crazyflie_msgs/NoYawControl:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" ""
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" "crazyflie_msgs/PositionVelocityYawState:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" "crazyflie_msgs/PrioritizedControl:crazyflie_msgs/Control:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" "crazyflie_msgs/PositionVelocityYawState:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
 add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" "std_msgs/Header:crazyflie_msgs/Control"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "crazyflie_msgs" "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" "crazyflie_msgs/PositionVelocityState:std_msgs/Header"
 )
 
 #
@@ -89,81 +89,81 @@ add_custom_target(_crazyflie_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_cpp(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_cpp(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_cpp(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_cpp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/crazyflie_msgs
 )
 
@@ -181,31 +181,31 @@ add_custom_target(crazyflie_msgs_generate_messages_cpp
 add_dependencies(crazyflie_msgs_generate_messages crazyflie_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_cpp _crazyflie_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -218,81 +218,81 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS crazyflie_msgs_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_eus(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_eus(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_eus(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_eus(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/crazyflie_msgs
 )
 
@@ -310,31 +310,31 @@ add_custom_target(crazyflie_msgs_generate_messages_eus
 add_dependencies(crazyflie_msgs_generate_messages crazyflie_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_eus _crazyflie_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -347,81 +347,81 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS crazyflie_msgs_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_lisp(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_lisp(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_lisp(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_lisp(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/crazyflie_msgs
 )
 
@@ -439,31 +439,31 @@ add_custom_target(crazyflie_msgs_generate_messages_lisp
 add_dependencies(crazyflie_msgs_generate_messages crazyflie_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_lisp _crazyflie_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -476,81 +476,81 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS crazyflie_msgs_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_nodejs(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_nodejs(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_nodejs(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_nodejs(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/crazyflie_msgs
 )
 
@@ -568,31 +568,31 @@ add_custom_target(crazyflie_msgs_generate_messages_nodejs
 add_dependencies(crazyflie_msgs_generate_messages crazyflie_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_nodejs _crazyflie_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -605,81 +605,81 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS crazyflie_msgs_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_py(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_py(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg;/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 _generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
+  "${MSG_I_FLAGS}"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
+)
+_generate_msg_py(crazyflie_msgs
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
-)
-_generate_msg_py(crazyflie_msgs
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg"
-  "${MSG_I_FLAGS}"
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/crazyflie_msgs
 )
 
@@ -697,31 +697,31 @@ add_custom_target(crazyflie_msgs_generate_messages_py
 add_dependencies(crazyflie_msgs_generate_messages crazyflie_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/FlagPosition.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawState.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/FullState.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/NoYawControl.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PrioritizedControlStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/Control.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityYawStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/eecs149_rst/final_project_workspace/src/crazyflie_msgs/msg/ControlStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs/msg/PositionVelocityStateStamped.msg" NAME_WE)
 add_dependencies(crazyflie_msgs_generate_messages_py _crazyflie_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

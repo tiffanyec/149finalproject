@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/listParams.dir/src/listParams.cpp.o"
-  "/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_tools/listParams.pdb"
-  "/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_tools/listParams"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_tools/listParams.pdb"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_tools/listParams"
 )
 
 # Per-language clean rules from dependency scanning.

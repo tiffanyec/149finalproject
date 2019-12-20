@@ -1,8 +1,8 @@
-prefix=/home/eecs149_rst/final_project_workspace/devel
+prefix=/home/eecs149_rst/149finalproject/final_project_workspace/devel
 
 Name: crazyflie_utils
 Description: Description of crazyflie_utils
 Version: 0.0.0
-Cflags: -I/home/eecs149_rst/final_project_workspace/src/crazyflie_utils/include
-Libs: -L/home/eecs149_rst/final_project_workspace/devel/lib 
+Cflags: -I/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_utils/include
+Libs: -L/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib 
 Requires: roscpp

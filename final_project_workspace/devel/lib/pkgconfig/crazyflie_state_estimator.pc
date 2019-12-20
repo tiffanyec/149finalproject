@@ -1,8 +1,8 @@
-prefix=/home/eecs149_rst/final_project_workspace/devel
+prefix=/home/eecs149_rst/149finalproject/final_project_workspace/devel
 
 Name: crazyflie_state_estimator
 Description: Description of crazyflie_state_estimator
 Version: 0.0.0
-Cflags: -I/home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/include
-Libs: -L/home/eecs149_rst/final_project_workspace/devel/lib -lcrazyflie_state_estimator
+Cflags: -I/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/include
+Libs: -L/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib -lcrazyflie_state_estimator
 Requires: roscpp visualization_msgs geometry_msgs crazyflie_utils crazyflie_msgs tf2_ros message_runtime

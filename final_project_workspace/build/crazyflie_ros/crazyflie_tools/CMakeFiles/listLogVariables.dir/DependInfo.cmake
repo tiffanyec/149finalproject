@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_tools/src/listLogVariables.cpp" "/home/eecs149_rst/final_project_workspace/build/crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_ros/crazyflie_tools/src/listLogVariables.cpp" "/home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,12 +15,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/eecs149_rst/final_project_workspace/build/crazyflie_ros/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/DependInfo.cmake"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_ros/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

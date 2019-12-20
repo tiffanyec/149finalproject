@@ -29,7 +29,7 @@ class Flier():
 		# RCI Drone
 		#TODO: TARGETS
 		print("Constructing Improviser DFA... (may take a minute)")
-		self.advPos = (5,5)
+		self.advPos = (6,6)
 		self.targets = ((2,2), (2,4), (4,2), (4,4))
 		self.rci_drone = RCIDrone(k=7, n=60, targets = self.targets, verbose = False, advPos=self.advPos)
 		init_step = self.rci_drone.impro.send(None)[0]
@@ -160,6 +160,9 @@ class Flier():
 	def adversaryListener(self, msg):
 		if msg.flag and self.state == WAITING:
 			adversaryPosition = self.c_to_d(msg.x, msg.y)
+			if (adversaryPosition == self.curr_pos):
+				self.land()
+				rospy.signal_shutdown("I got caught!")
 			print("Improviser @: ", self.curr_pos)
 			print("Adversary @: ", adversaryPosition)
 			advMove = tuple((adversaryPosition[0] - self.advPos[0], adversaryPosition[1] - self.advPos[1]))

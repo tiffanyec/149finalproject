@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/final_project_workspace/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/final_project_workspace/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/build
 
 # Utility rule file for crazyflie_msgs_gencpp.
 
@@ -63,10 +63,10 @@ crazyflie_msgs/CMakeFiles/crazyflie_msgs_gencpp.dir/build: crazyflie_msgs_gencpp
 .PHONY : crazyflie_msgs/CMakeFiles/crazyflie_msgs_gencpp.dir/build
 
 crazyflie_msgs/CMakeFiles/crazyflie_msgs_gencpp.dir/clean:
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_msgs && $(CMAKE_COMMAND) -P CMakeFiles/crazyflie_msgs_gencpp.dir/cmake_clean.cmake
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_msgs && $(CMAKE_COMMAND) -P CMakeFiles/crazyflie_msgs_gencpp.dir/cmake_clean.cmake
 .PHONY : crazyflie_msgs/CMakeFiles/crazyflie_msgs_gencpp.dir/clean
 
 crazyflie_msgs/CMakeFiles/crazyflie_msgs_gencpp.dir/depend:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/final_project_workspace/src /home/eecs149_rst/final_project_workspace/src/crazyflie_msgs /home/eecs149_rst/final_project_workspace/build /home/eecs149_rst/final_project_workspace/build/crazyflie_msgs /home/eecs149_rst/final_project_workspace/build/crazyflie_msgs/CMakeFiles/crazyflie_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/149finalproject/final_project_workspace/src /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_msgs /home/eecs149_rst/149finalproject/final_project_workspace/build /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_msgs /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_msgs/CMakeFiles/crazyflie_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_msgs/CMakeFiles/crazyflie_msgs_gencpp.dir/depend
 

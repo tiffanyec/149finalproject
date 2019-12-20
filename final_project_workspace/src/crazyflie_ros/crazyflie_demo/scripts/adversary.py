@@ -28,27 +28,29 @@ class Adversary():
 
         self.state = WAITING
         self.simulated = False
-        self.curPos = (5,5)
+        self.curPos = (6,6)
         self.k = 7
 
         self.r = rospy.Rate(10) # 10hz
 
-        self.frame_error = -0.025
+        self.frame_error = -0.001
+
+        self.illegalMove = ((2,2), (2,4), (4,2), (4,4), (3,3))
 
         self.delta = 0.3
         self.move_tolerance = 0.01
         self.rotate_tolerance = 0.01
 
-        self.planner = self.loopAdv
+        self.planner = self.chaseAdv
         self.improPos = None
 
         self.loop_state = "down"
 
         self.des_x = None
         self.des_y = None
-        self.orientation = 0.0
+        # self.orientation = 0.0
 
-        self.move_rotations = { (0, 1): 0.0, (0,-1): np.pi, (1,0): -np.pi/2, (-1,0): np.pi/2 }
+        # self.move_rotations = { (0, 1): 0.0, (0,-1): np.pi, (1,0): -np.pi/2, (-1,0): np.pi/2 }
 
         if self.simulated:
             while not rospy.is_shutdown():
@@ -97,9 +99,20 @@ class Adversary():
                 arrived = self.move(msg, self.des_x, self.des_y)
                 if arrived:
                     # print("Adversary finished moving!")
-                    self.adv_pub.publish(FlagPosition(True, msg.pose.position.x, msg.pose.position.y))
+                    p, q = self.pose_to_pq(msg.pose)
+
+                    g = tr.quaternion_matrix(q)
+                    g[0:3, -1] = p
+
+                    g2 = np.eye(4)
+                    g2[0:3,-1] = np.array([self.frame_error,0.0,0.0])
+
+                    res = np.dot(g, g2)
+                    curr_x, curr_y = res[0:2,-1]
+
+                    self.adv_pub.publish(FlagPosition(True, curr_x, curr_y))
                     self.state = WAITING
-                    adv_pos = self.c_to_d(msg.pose.position.x, msg.pose.position.y)
+                    adv_pos = self.c_to_d(curr_x, curr_y)
                     self.curPos = adv_pos
 
         
@@ -159,8 +172,9 @@ class Adversary():
     def improviserListener(self, msg):
         if msg.flag and self.state == WAITING:
             self.improPos = self.c_to_d(msg.x, msg.y)
-            self.state = ROTATING
             self.des_x, self.des_y = self.planner(self.improPos, self.curPos)
+            print("Adversary move to: ", self.des_x, self.des_y)
+            self.state = ROTATING
             print(self.des_x, self.des_y)
             self.adv_pub.publish(FlagPosition(False, None,None))
 
@@ -194,6 +208,37 @@ class Adversary():
             return (advx-1, advy)
         else:
             print("Uh oh should not be here in loop adv")
+
+    def humanAdv(self, improPos, advPos):
+        advx,advy = advPos
+        direction = {
+          'a': (advx-1,advy),
+          'd': (advx+1,advy),
+          'w': (advx,advy+1),
+          's': (advx,advy-1)
+          }
+        print("Waiting for input...")
+        d = raw_input()
+        while d not in direction:
+            print('valid directions are: ', sorted(direction.keys()))
+            d = raw_input()
+        return direction[d]
+
+    def chaseAdv(self, improPos, advPos):
+
+        advx,advy = advPos
+        moves = [
+          (advx-1,advy),
+          (advx+1,advy),
+          (advx,advy+1),
+          (advx,advy-1)
+        ]
+
+        iPos = np.array(improPos)
+
+        dists = [np.linalg.norm(np.array(move) - iPos) if move not in self.illegalMove else 100 for move in moves]
+
+        return moves[np.argmin(dists)]
 
 
 if __name__ == '__main__':

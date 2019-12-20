@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/final_project_workspace/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/final_project_workspace/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/final_project_workspace/build/CMakeFiles /home/eecs149_rst/final_project_workspace/build/crazyflie_lqr/CMakeFiles/progress.marks
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/final_project_workspace/build/CMakeFiles 0
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_lqr/CMakeFiles/progress.marks
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/clean
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/preinstall
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/preinstall
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/clean_test_results_crazyflie_lqr.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/clean_test_results_crazyflie_lqr.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/clean_test_results_crazyflie_lqr.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/clean_test_results_crazyflie_lqr.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ clean_test_results_crazyflie_lqr: crazyflie_lqr/CMakeFiles/clean_test_results_cr
 
 # fast build rule for target.
 clean_test_results_crazyflie_lqr/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/clean_test_results_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/clean_test_results_crazyflie_lqr.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/clean_test_results_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/clean_test_results_crazyflie_lqr.dir/build
 .PHONY : clean_test_results_crazyflie_lqr/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ _run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr: crazyflie_lqr/CMakeFiles/_run
 
 # fast build rule for target.
 _run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/build
 .PHONY : _run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ full_state_lqr_node: crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/rule
 
 # fast build rule for target.
 full_state_lqr_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build
 .PHONY : full_state_lqr_node/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ run_tests_crazyflie_lqr: crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/ru
 
 # fast build rule for target.
 run_tests_crazyflie_lqr/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr.dir/build
 .PHONY : run_tests_crazyflie_lqr/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ crazyflie_lqr: crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/rule
 
 # fast build rule for target.
 crazyflie_lqr/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build
 .PHONY : crazyflie_lqr/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ position_velocity_yaw_state_lift_lqr_node: crazyflie_lqr/CMakeFiles/position_vel
 
 # fast build rule for target.
 position_velocity_yaw_state_lift_lqr_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build
 .PHONY : position_velocity_yaw_state_lift_lqr_node/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ test_crazyflie_lqr: crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/rule
 
 # fast build rule for target.
 test_crazyflie_lqr/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build
 .PHONY : test_crazyflie_lqr/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ position_velocity_yaw_state_lqr_node: crazyflie_lqr/CMakeFiles/position_velocity
 
 # fast build rule for target.
 position_velocity_yaw_state_lqr_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build
 .PHONY : position_velocity_yaw_state_lqr_node/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ _run_tests_crazyflie_lqr: crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/
 
 # fast build rule for target.
 _run_tests_crazyflie_lqr/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr.dir/build
 .PHONY : _run_tests_crazyflie_lqr/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ run_tests_crazyflie_lqr_gtest: crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_
 
 # fast build rule for target.
 run_tests_crazyflie_lqr_gtest/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest.dir/build.make crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest.dir/build.make crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest.dir/build
 .PHONY : run_tests_crazyflie_lqr_gtest/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ _run_tests_crazyflie_lqr_gtest: crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lq
 
 # fast build rule for target.
 _run_tests_crazyflie_lqr_gtest/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest.dir/build.make crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest.dir/build.make crazyflie_lqr/CMakeFiles/_run_tests_crazyflie_lqr_gtest.dir/build
 .PHONY : _run_tests_crazyflie_lqr_gtest/fast
 
 # Convenience name for target.
 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/rule
 .PHONY : crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/rule
 
 # Convenience name for target.
@@ -342,7 +342,7 @@ run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr: crazyflie_lqr/CMakeFiles/run_t
 
 # fast build rule for target.
 run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr.dir/build
 .PHONY : run_tests_crazyflie_lqr_gtest_test_crazyflie_lqr/fast
 
 exec/full_state_lqr_node.o: exec/full_state_lqr_node.cpp.o
@@ -351,7 +351,7 @@ exec/full_state_lqr_node.o: exec/full_state_lqr_node.cpp.o
 
 # target to build an object file
 exec/full_state_lqr_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/exec/full_state_lqr_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/exec/full_state_lqr_node.cpp.o
 .PHONY : exec/full_state_lqr_node.cpp.o
 
 exec/full_state_lqr_node.i: exec/full_state_lqr_node.cpp.i
@@ -360,7 +360,7 @@ exec/full_state_lqr_node.i: exec/full_state_lqr_node.cpp.i
 
 # target to preprocess a source file
 exec/full_state_lqr_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/exec/full_state_lqr_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/exec/full_state_lqr_node.cpp.i
 .PHONY : exec/full_state_lqr_node.cpp.i
 
 exec/full_state_lqr_node.s: exec/full_state_lqr_node.cpp.s
@@ -369,7 +369,7 @@ exec/full_state_lqr_node.s: exec/full_state_lqr_node.cpp.s
 
 # target to generate assembly for a file
 exec/full_state_lqr_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/exec/full_state_lqr_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/full_state_lqr_node.dir/exec/full_state_lqr_node.cpp.s
 .PHONY : exec/full_state_lqr_node.cpp.s
 
 exec/position_velocity_yaw_state_lift_lqr_node.o: exec/position_velocity_yaw_state_lift_lqr_node.cpp.o
@@ -378,7 +378,7 @@ exec/position_velocity_yaw_state_lift_lqr_node.o: exec/position_velocity_yaw_sta
 
 # target to build an object file
 exec/position_velocity_yaw_state_lift_lqr_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/exec/position_velocity_yaw_state_lift_lqr_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/exec/position_velocity_yaw_state_lift_lqr_node.cpp.o
 .PHONY : exec/position_velocity_yaw_state_lift_lqr_node.cpp.o
 
 exec/position_velocity_yaw_state_lift_lqr_node.i: exec/position_velocity_yaw_state_lift_lqr_node.cpp.i
@@ -387,7 +387,7 @@ exec/position_velocity_yaw_state_lift_lqr_node.i: exec/position_velocity_yaw_sta
 
 # target to preprocess a source file
 exec/position_velocity_yaw_state_lift_lqr_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/exec/position_velocity_yaw_state_lift_lqr_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/exec/position_velocity_yaw_state_lift_lqr_node.cpp.i
 .PHONY : exec/position_velocity_yaw_state_lift_lqr_node.cpp.i
 
 exec/position_velocity_yaw_state_lift_lqr_node.s: exec/position_velocity_yaw_state_lift_lqr_node.cpp.s
@@ -396,7 +396,7 @@ exec/position_velocity_yaw_state_lift_lqr_node.s: exec/position_velocity_yaw_sta
 
 # target to generate assembly for a file
 exec/position_velocity_yaw_state_lift_lqr_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/exec/position_velocity_yaw_state_lift_lqr_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/exec/position_velocity_yaw_state_lift_lqr_node.cpp.s
 .PHONY : exec/position_velocity_yaw_state_lift_lqr_node.cpp.s
 
 exec/position_velocity_yaw_state_lqr_node.o: exec/position_velocity_yaw_state_lqr_node.cpp.o
@@ -405,7 +405,7 @@ exec/position_velocity_yaw_state_lqr_node.o: exec/position_velocity_yaw_state_lq
 
 # target to build an object file
 exec/position_velocity_yaw_state_lqr_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/exec/position_velocity_yaw_state_lqr_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/exec/position_velocity_yaw_state_lqr_node.cpp.o
 .PHONY : exec/position_velocity_yaw_state_lqr_node.cpp.o
 
 exec/position_velocity_yaw_state_lqr_node.i: exec/position_velocity_yaw_state_lqr_node.cpp.i
@@ -414,7 +414,7 @@ exec/position_velocity_yaw_state_lqr_node.i: exec/position_velocity_yaw_state_lq
 
 # target to preprocess a source file
 exec/position_velocity_yaw_state_lqr_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/exec/position_velocity_yaw_state_lqr_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/exec/position_velocity_yaw_state_lqr_node.cpp.i
 .PHONY : exec/position_velocity_yaw_state_lqr_node.cpp.i
 
 exec/position_velocity_yaw_state_lqr_node.s: exec/position_velocity_yaw_state_lqr_node.cpp.s
@@ -423,7 +423,7 @@ exec/position_velocity_yaw_state_lqr_node.s: exec/position_velocity_yaw_state_lq
 
 # target to generate assembly for a file
 exec/position_velocity_yaw_state_lqr_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/exec/position_velocity_yaw_state_lqr_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/build.make crazyflie_lqr/CMakeFiles/position_velocity_yaw_state_lqr_node.dir/exec/position_velocity_yaw_state_lqr_node.cpp.s
 .PHONY : exec/position_velocity_yaw_state_lqr_node.cpp.s
 
 src/full_state_lqr.o: src/full_state_lqr.cpp.o
@@ -432,7 +432,7 @@ src/full_state_lqr.o: src/full_state_lqr.cpp.o
 
 # target to build an object file
 src/full_state_lqr.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/full_state_lqr.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/full_state_lqr.cpp.o
 .PHONY : src/full_state_lqr.cpp.o
 
 src/full_state_lqr.i: src/full_state_lqr.cpp.i
@@ -441,7 +441,7 @@ src/full_state_lqr.i: src/full_state_lqr.cpp.i
 
 # target to preprocess a source file
 src/full_state_lqr.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/full_state_lqr.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/full_state_lqr.cpp.i
 .PHONY : src/full_state_lqr.cpp.i
 
 src/full_state_lqr.s: src/full_state_lqr.cpp.s
@@ -450,7 +450,7 @@ src/full_state_lqr.s: src/full_state_lqr.cpp.s
 
 # target to generate assembly for a file
 src/full_state_lqr.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/full_state_lqr.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/full_state_lqr.cpp.s
 .PHONY : src/full_state_lqr.cpp.s
 
 src/linear_feedback_controller.o: src/linear_feedback_controller.cpp.o
@@ -459,7 +459,7 @@ src/linear_feedback_controller.o: src/linear_feedback_controller.cpp.o
 
 # target to build an object file
 src/linear_feedback_controller.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/linear_feedback_controller.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/linear_feedback_controller.cpp.o
 .PHONY : src/linear_feedback_controller.cpp.o
 
 src/linear_feedback_controller.i: src/linear_feedback_controller.cpp.i
@@ -468,7 +468,7 @@ src/linear_feedback_controller.i: src/linear_feedback_controller.cpp.i
 
 # target to preprocess a source file
 src/linear_feedback_controller.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/linear_feedback_controller.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/linear_feedback_controller.cpp.i
 .PHONY : src/linear_feedback_controller.cpp.i
 
 src/linear_feedback_controller.s: src/linear_feedback_controller.cpp.s
@@ -477,7 +477,7 @@ src/linear_feedback_controller.s: src/linear_feedback_controller.cpp.s
 
 # target to generate assembly for a file
 src/linear_feedback_controller.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/linear_feedback_controller.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/linear_feedback_controller.cpp.s
 .PHONY : src/linear_feedback_controller.cpp.s
 
 src/position_velocity_yaw_state_lift_lqr.o: src/position_velocity_yaw_state_lift_lqr.cpp.o
@@ -486,7 +486,7 @@ src/position_velocity_yaw_state_lift_lqr.o: src/position_velocity_yaw_state_lift
 
 # target to build an object file
 src/position_velocity_yaw_state_lift_lqr.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lift_lqr.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lift_lqr.cpp.o
 .PHONY : src/position_velocity_yaw_state_lift_lqr.cpp.o
 
 src/position_velocity_yaw_state_lift_lqr.i: src/position_velocity_yaw_state_lift_lqr.cpp.i
@@ -495,7 +495,7 @@ src/position_velocity_yaw_state_lift_lqr.i: src/position_velocity_yaw_state_lift
 
 # target to preprocess a source file
 src/position_velocity_yaw_state_lift_lqr.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lift_lqr.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lift_lqr.cpp.i
 .PHONY : src/position_velocity_yaw_state_lift_lqr.cpp.i
 
 src/position_velocity_yaw_state_lift_lqr.s: src/position_velocity_yaw_state_lift_lqr.cpp.s
@@ -504,7 +504,7 @@ src/position_velocity_yaw_state_lift_lqr.s: src/position_velocity_yaw_state_lift
 
 # target to generate assembly for a file
 src/position_velocity_yaw_state_lift_lqr.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lift_lqr.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lift_lqr.cpp.s
 .PHONY : src/position_velocity_yaw_state_lift_lqr.cpp.s
 
 src/position_velocity_yaw_state_lqr.o: src/position_velocity_yaw_state_lqr.cpp.o
@@ -513,7 +513,7 @@ src/position_velocity_yaw_state_lqr.o: src/position_velocity_yaw_state_lqr.cpp.o
 
 # target to build an object file
 src/position_velocity_yaw_state_lqr.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lqr.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lqr.cpp.o
 .PHONY : src/position_velocity_yaw_state_lqr.cpp.o
 
 src/position_velocity_yaw_state_lqr.i: src/position_velocity_yaw_state_lqr.cpp.i
@@ -522,7 +522,7 @@ src/position_velocity_yaw_state_lqr.i: src/position_velocity_yaw_state_lqr.cpp.i
 
 # target to preprocess a source file
 src/position_velocity_yaw_state_lqr.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lqr.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lqr.cpp.i
 .PHONY : src/position_velocity_yaw_state_lqr.cpp.i
 
 src/position_velocity_yaw_state_lqr.s: src/position_velocity_yaw_state_lqr.cpp.s
@@ -531,7 +531,7 @@ src/position_velocity_yaw_state_lqr.s: src/position_velocity_yaw_state_lqr.cpp.s
 
 # target to generate assembly for a file
 src/position_velocity_yaw_state_lqr.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lqr.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/crazyflie_lqr.dir/src/position_velocity_yaw_state_lqr.cpp.s
 .PHONY : src/position_velocity_yaw_state_lqr.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -540,7 +540,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/test/test_main.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -549,7 +549,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/test/test_main.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -558,7 +558,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/test/test_main.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/build.make crazyflie_lqr/CMakeFiles/test_crazyflie_lqr.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 # Help Target
@@ -621,6 +621,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

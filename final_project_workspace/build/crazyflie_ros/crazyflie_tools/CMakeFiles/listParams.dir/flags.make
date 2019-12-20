@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include 
+CXX_INCLUDES = -I/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_ros/crazyflie_cpp/include 
 

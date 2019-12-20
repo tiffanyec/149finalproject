@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_controller/src/controller.cpp
+/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_ros/crazyflie_controller/src/controller.cpp
 ros/ros.h
 -
 tf/transform_listener.h
@@ -16,9 +16,9 @@ std_srvs/Empty.h
 geometry_msgs/Twist.h
 -
 pid.hpp
-/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_controller/src/pid.hpp
+/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_ros/crazyflie_controller/src/pid.hpp
 
-/home/eecs149_rst/final_project_workspace/src/crazyflie_ros/crazyflie_controller/src/pid.hpp
+/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_ros/crazyflie_controller/src/pid.hpp
 ros/ros.h
 -
 

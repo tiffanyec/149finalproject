@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/final_project_workspace/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/final_project_workspace/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/build
 
 # Include any dependencies generated for this target.
 include crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/depend.make
@@ -58,17 +58,17 @@ include crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/progress.make
 include crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/flags.make
 
 crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o: crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/flags.make
-crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o: /home/eecs149_rst/final_project_workspace/src/crazyflie_takeoff/exec/takeoff_server_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o -c /home/eecs149_rst/final_project_workspace/src/crazyflie_takeoff/exec/takeoff_server_node.cpp
+crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o: /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_takeoff/exec/takeoff_server_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o"
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o -c /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_takeoff/exec/takeoff_server_node.cpp
 
 crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.i"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/final_project_workspace/src/crazyflie_takeoff/exec/takeoff_server_node.cpp > CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_takeoff/exec/takeoff_server_node.cpp > CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.i
 
 crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.s"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/final_project_workspace/src/crazyflie_takeoff/exec/takeoff_server_node.cpp -o CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_takeoff/exec/takeoff_server_node.cpp -o CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.s
 
 crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o.requires:
 
@@ -88,38 +88,38 @@ takeoff_server_node_OBJECTS = \
 # External object files for target takeoff_server_node
 takeoff_server_node_EXTERNAL_OBJECTS =
 
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/build.make
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_takeoff.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libtf2.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/librostime.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eecs149_rst/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/takeoff_server_node.dir/link.txt --verbose=$(VERBOSE)
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/exec/takeoff_server_node.cpp.o
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/build.make
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_takeoff.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libactionlib.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libtf2.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/librostime.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node: crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node"
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/takeoff_server_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/build: /home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node
+crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/build: /home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_takeoff/takeoff_server_node
 
 .PHONY : crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/build
 
@@ -128,10 +128,10 @@ crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/requires: crazyflie_takeoff
 .PHONY : crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/requires
 
 crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/clean:
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff && $(CMAKE_COMMAND) -P CMakeFiles/takeoff_server_node.dir/cmake_clean.cmake
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff && $(CMAKE_COMMAND) -P CMakeFiles/takeoff_server_node.dir/cmake_clean.cmake
 .PHONY : crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/clean
 
 crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/depend:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/final_project_workspace/src /home/eecs149_rst/final_project_workspace/src/crazyflie_takeoff /home/eecs149_rst/final_project_workspace/build /home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff /home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/149finalproject/final_project_workspace/src /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_takeoff /home/eecs149_rst/149finalproject/final_project_workspace/build /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_takeoff/CMakeFiles/takeoff_server_node.dir/depend
 

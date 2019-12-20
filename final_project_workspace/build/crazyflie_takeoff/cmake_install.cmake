@@ -1,8 +1,8 @@
-# Install script for directory: /home/eecs149_rst/final_project_workspace/src/crazyflie_takeoff
+# Install script for directory: /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_takeoff
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/eecs149_rst/final_project_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/eecs149_rst/149finalproject/final_project_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff/catkin_generated/installspace/crazyflie_takeoff.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff/catkin_generated/installspace/crazyflie_takeoff.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_takeoff/cmake" TYPE FILE FILES
-    "/home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff/catkin_generated/installspace/crazyflie_takeoffConfig.cmake"
-    "/home/eecs149_rst/final_project_workspace/build/crazyflie_takeoff/catkin_generated/installspace/crazyflie_takeoffConfig-version.cmake"
+    "/home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff/catkin_generated/installspace/crazyflie_takeoffConfig.cmake"
+    "/home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_takeoff/catkin_generated/installspace/crazyflie_takeoffConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_takeoff" TYPE FILE FILES "/home/eecs149_rst/final_project_workspace/src/crazyflie_takeoff/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_takeoff" TYPE FILE FILES "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_takeoff/package.xml")
 endif()
 

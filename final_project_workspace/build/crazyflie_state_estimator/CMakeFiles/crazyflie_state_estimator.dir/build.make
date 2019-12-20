@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/final_project_workspace/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/final_project_workspace/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/build
 
 # Include any dependencies generated for this target.
 include crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/depend.make
@@ -58,17 +58,17 @@ include crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/progr
 include crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/flags.make
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/flags.make
-crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o: /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/state_estimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o -c /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/state_estimator.cpp
+crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o: /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/state_estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o"
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o -c /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/state_estimator.cpp
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.i"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/state_estimator.cpp > CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/state_estimator.cpp > CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.i
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.s"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/state_estimator.cpp -o CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/state_estimator.cpp -o CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.s
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o.requires:
 
@@ -82,17 +82,17 @@ crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_est
 
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/flags.make
-crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o: /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_yaw_state_estimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o -c /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_yaw_state_estimator.cpp
+crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o: /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_yaw_state_estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o"
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o -c /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_yaw_state_estimator.cpp
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.i"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_yaw_state_estimator.cpp > CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_yaw_state_estimator.cpp > CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.i
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.s"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_yaw_state_estimator.cpp -o CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_yaw_state_estimator.cpp -o CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.s
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o.requires:
 
@@ -106,17 +106,17 @@ crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_
 
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/flags.make
-crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o: /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/full_state_estimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o -c /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/full_state_estimator.cpp
+crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o: /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/full_state_estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o"
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o -c /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/full_state_estimator.cpp
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.i"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/full_state_estimator.cpp > CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/full_state_estimator.cpp > CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.i
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.s"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/full_state_estimator.cpp -o CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/full_state_estimator.cpp -o CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.s
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o.requires:
 
@@ -130,17 +130,17 @@ crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_stat
 
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/flags.make
-crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o: /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_state_estimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o -c /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_state_estimator.cpp
+crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o: /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_state_estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o"
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o -c /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_state_estimator.cpp
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.i"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_state_estimator.cpp > CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_state_estimator.cpp > CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.i
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.s"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_state_estimator.cpp -o CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator/src/position_velocity_state_estimator.cpp -o CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.s
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o.requires:
 
@@ -163,40 +163,40 @@ crazyflie_state_estimator_OBJECTS = \
 # External object files for target crazyflie_state_estimator
 crazyflie_state_estimator_EXTERNAL_OBJECTS =
 
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libtf2.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/librostime.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eecs149_rst/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so"
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crazyflie_state_estimator.dir/link.txt --verbose=$(VERBOSE)
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libtf2.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/librostime.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so: crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so"
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crazyflie_state_estimator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build: /home/eecs149_rst/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so
+crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build: /home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/libcrazyflie_state_estimator.so
 
 .PHONY : crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build
 
@@ -208,10 +208,10 @@ crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/requires: cra
 .PHONY : crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/requires
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/clean:
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator && $(CMAKE_COMMAND) -P CMakeFiles/crazyflie_state_estimator.dir/cmake_clean.cmake
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator && $(CMAKE_COMMAND) -P CMakeFiles/crazyflie_state_estimator.dir/cmake_clean.cmake
 .PHONY : crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/clean
 
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/depend:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/final_project_workspace/src /home/eecs149_rst/final_project_workspace/src/crazyflie_state_estimator /home/eecs149_rst/final_project_workspace/build /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/149finalproject/final_project_workspace/src /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_state_estimator /home/eecs149_rst/149finalproject/final_project_workspace/build /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/depend
 

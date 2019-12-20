@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/final_project_workspace/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/final_project_workspace/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/build
 
 # Utility rule file for std_srvs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ crazyflie_examples/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build: std_s
 .PHONY : crazyflie_examples/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
 
 crazyflie_examples/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
-	cd /home/eecs149_rst/final_project_workspace/build/crazyflie_examples && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_examples && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : crazyflie_examples/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
 
 crazyflie_examples/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/final_project_workspace/src /home/eecs149_rst/final_project_workspace/src/crazyflie_examples /home/eecs149_rst/final_project_workspace/build /home/eecs149_rst/final_project_workspace/build/crazyflie_examples /home/eecs149_rst/final_project_workspace/build/crazyflie_examples/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecs149_rst/149finalproject/final_project_workspace/src /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_examples /home/eecs149_rst/149finalproject/final_project_workspace/build /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_examples /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_examples/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_examples/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
 

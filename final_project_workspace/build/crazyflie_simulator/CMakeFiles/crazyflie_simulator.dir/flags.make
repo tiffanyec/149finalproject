@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -fPIC
 
 CXX_DEFINES = -DENABLE_DEBUG_MESSAGES=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"crazyflie_simulator\" -Dcrazyflie_simulator_EXPORTS
 
-CXX_INCLUDES = -I/home/eecs149_rst/final_project_workspace/src/crazyflie_simulator/include -I/home/eecs149_rst/final_project_workspace/devel/include -I/home/eecs149_rst/final_project_workspace/src/crazyflie_utils/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/local/include/eigen3 -I/usr/local/include 
+CXX_INCLUDES = -I/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_simulator/include -I/home/eecs149_rst/149finalproject/final_project_workspace/devel/include -I/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_utils/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/local/include/eigen3 -I/usr/local/include 
 

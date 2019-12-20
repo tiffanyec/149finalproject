@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/final_project_workspace/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/final_project_workspace/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/final_project_workspace/build/CMakeFiles /home/eecs149_rst/final_project_workspace/build/crazyflie_state_estimator/CMakeFiles/progress.marks
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/final_project_workspace/build/CMakeFiles 0
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_state_estimator/CMakeFiles/progress.marks
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/clean
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/preinstall
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/preinstall
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/clean_test_results_crazyflie_state_estimator.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/clean_test_results_crazyflie_state_estimator.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/clean_test_results_crazyflie_state_estimator.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/clean_test_results_crazyflie_state_estimator.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ clean_test_results_crazyflie_state_estimator: crazyflie_state_estimator/CMakeFil
 
 # fast build rule for target.
 clean_test_results_crazyflie_state_estimator/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/clean_test_results_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/clean_test_results_crazyflie_state_estimator.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/clean_test_results_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/clean_test_results_crazyflie_state_estimator.dir/build
 .PHONY : clean_test_results_crazyflie_state_estimator/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ _run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator: crazy
 
 # fast build rule for target.
 _run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/build
 .PHONY : _run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ position_velocity_yaw_state_estimator_node: crazyflie_state_estimator/CMakeFiles
 
 # fast build rule for target.
 position_velocity_yaw_state_estimator_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build
 .PHONY : position_velocity_yaw_state_estimator_node/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ crazyflie_state_estimator: crazyflie_state_estimator/CMakeFiles/crazyflie_state_
 
 # fast build rule for target.
 crazyflie_state_estimator/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build
 .PHONY : crazyflie_state_estimator/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ position_velocity_state_estimator_node: crazyflie_state_estimator/CMakeFiles/pos
 
 # fast build rule for target.
 position_velocity_state_estimator_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build
 .PHONY : position_velocity_state_estimator_node/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ full_state_estimator_node: crazyflie_state_estimator/CMakeFiles/full_state_estim
 
 # fast build rule for target.
 full_state_estimator_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build
 .PHONY : full_state_estimator_node/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ run_tests_crazyflie_state_estimator: crazyflie_state_estimator/CMakeFiles/run_te
 
 # fast build rule for target.
 run_tests_crazyflie_state_estimator/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator.dir/build
 .PHONY : run_tests_crazyflie_state_estimator/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ run_tests_crazyflie_state_estimator_gtest: crazyflie_state_estimator/CMakeFiles/
 
 # fast build rule for target.
 run_tests_crazyflie_state_estimator_gtest/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest.dir/build.make crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest.dir/build.make crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest.dir/build
 .PHONY : run_tests_crazyflie_state_estimator_gtest/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ test_crazyflie_state_estimator: crazyflie_state_estimator/CMakeFiles/test_crazyf
 
 # fast build rule for target.
 test_crazyflie_state_estimator/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build
 .PHONY : test_crazyflie_state_estimator/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator: crazyf
 
 # fast build rule for target.
 run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator.dir/build
 .PHONY : run_tests_crazyflie_state_estimator_gtest_test_crazyflie_state_estimator/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ _run_tests_crazyflie_state_estimator: crazyflie_state_estimator/CMakeFiles/_run_
 
 # fast build rule for target.
 _run_tests_crazyflie_state_estimator/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator.dir/build
 .PHONY : _run_tests_crazyflie_state_estimator/fast
 
 # Convenience name for target.
 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest.dir/rule
 .PHONY : crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest.dir/rule
 
 # Convenience name for target.
@@ -342,7 +342,7 @@ _run_tests_crazyflie_state_estimator_gtest: crazyflie_state_estimator/CMakeFiles
 
 # fast build rule for target.
 _run_tests_crazyflie_state_estimator_gtest/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest.dir/build.make crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest.dir/build.make crazyflie_state_estimator/CMakeFiles/_run_tests_crazyflie_state_estimator_gtest.dir/build
 .PHONY : _run_tests_crazyflie_state_estimator_gtest/fast
 
 exec/full_state_estimator_node.o: exec/full_state_estimator_node.cpp.o
@@ -351,7 +351,7 @@ exec/full_state_estimator_node.o: exec/full_state_estimator_node.cpp.o
 
 # target to build an object file
 exec/full_state_estimator_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/exec/full_state_estimator_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/exec/full_state_estimator_node.cpp.o
 .PHONY : exec/full_state_estimator_node.cpp.o
 
 exec/full_state_estimator_node.i: exec/full_state_estimator_node.cpp.i
@@ -360,7 +360,7 @@ exec/full_state_estimator_node.i: exec/full_state_estimator_node.cpp.i
 
 # target to preprocess a source file
 exec/full_state_estimator_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/exec/full_state_estimator_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/exec/full_state_estimator_node.cpp.i
 .PHONY : exec/full_state_estimator_node.cpp.i
 
 exec/full_state_estimator_node.s: exec/full_state_estimator_node.cpp.s
@@ -369,7 +369,7 @@ exec/full_state_estimator_node.s: exec/full_state_estimator_node.cpp.s
 
 # target to generate assembly for a file
 exec/full_state_estimator_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/exec/full_state_estimator_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/full_state_estimator_node.dir/exec/full_state_estimator_node.cpp.s
 .PHONY : exec/full_state_estimator_node.cpp.s
 
 exec/position_velocity_state_estimator_node.o: exec/position_velocity_state_estimator_node.cpp.o
@@ -378,7 +378,7 @@ exec/position_velocity_state_estimator_node.o: exec/position_velocity_state_esti
 
 # target to build an object file
 exec/position_velocity_state_estimator_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/exec/position_velocity_state_estimator_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/exec/position_velocity_state_estimator_node.cpp.o
 .PHONY : exec/position_velocity_state_estimator_node.cpp.o
 
 exec/position_velocity_state_estimator_node.i: exec/position_velocity_state_estimator_node.cpp.i
@@ -387,7 +387,7 @@ exec/position_velocity_state_estimator_node.i: exec/position_velocity_state_esti
 
 # target to preprocess a source file
 exec/position_velocity_state_estimator_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/exec/position_velocity_state_estimator_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/exec/position_velocity_state_estimator_node.cpp.i
 .PHONY : exec/position_velocity_state_estimator_node.cpp.i
 
 exec/position_velocity_state_estimator_node.s: exec/position_velocity_state_estimator_node.cpp.s
@@ -396,7 +396,7 @@ exec/position_velocity_state_estimator_node.s: exec/position_velocity_state_esti
 
 # target to generate assembly for a file
 exec/position_velocity_state_estimator_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/exec/position_velocity_state_estimator_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_state_estimator_node.dir/exec/position_velocity_state_estimator_node.cpp.s
 .PHONY : exec/position_velocity_state_estimator_node.cpp.s
 
 exec/position_velocity_yaw_state_estimator_node.o: exec/position_velocity_yaw_state_estimator_node.cpp.o
@@ -405,7 +405,7 @@ exec/position_velocity_yaw_state_estimator_node.o: exec/position_velocity_yaw_st
 
 # target to build an object file
 exec/position_velocity_yaw_state_estimator_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/exec/position_velocity_yaw_state_estimator_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/exec/position_velocity_yaw_state_estimator_node.cpp.o
 .PHONY : exec/position_velocity_yaw_state_estimator_node.cpp.o
 
 exec/position_velocity_yaw_state_estimator_node.i: exec/position_velocity_yaw_state_estimator_node.cpp.i
@@ -414,7 +414,7 @@ exec/position_velocity_yaw_state_estimator_node.i: exec/position_velocity_yaw_st
 
 # target to preprocess a source file
 exec/position_velocity_yaw_state_estimator_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/exec/position_velocity_yaw_state_estimator_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/exec/position_velocity_yaw_state_estimator_node.cpp.i
 .PHONY : exec/position_velocity_yaw_state_estimator_node.cpp.i
 
 exec/position_velocity_yaw_state_estimator_node.s: exec/position_velocity_yaw_state_estimator_node.cpp.s
@@ -423,7 +423,7 @@ exec/position_velocity_yaw_state_estimator_node.s: exec/position_velocity_yaw_st
 
 # target to generate assembly for a file
 exec/position_velocity_yaw_state_estimator_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/exec/position_velocity_yaw_state_estimator_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/build.make crazyflie_state_estimator/CMakeFiles/position_velocity_yaw_state_estimator_node.dir/exec/position_velocity_yaw_state_estimator_node.cpp.s
 .PHONY : exec/position_velocity_yaw_state_estimator_node.cpp.s
 
 src/full_state_estimator.o: src/full_state_estimator.cpp.o
@@ -432,7 +432,7 @@ src/full_state_estimator.o: src/full_state_estimator.cpp.o
 
 # target to build an object file
 src/full_state_estimator.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.o
 .PHONY : src/full_state_estimator.cpp.o
 
 src/full_state_estimator.i: src/full_state_estimator.cpp.i
@@ -441,7 +441,7 @@ src/full_state_estimator.i: src/full_state_estimator.cpp.i
 
 # target to preprocess a source file
 src/full_state_estimator.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.i
 .PHONY : src/full_state_estimator.cpp.i
 
 src/full_state_estimator.s: src/full_state_estimator.cpp.s
@@ -450,7 +450,7 @@ src/full_state_estimator.s: src/full_state_estimator.cpp.s
 
 # target to generate assembly for a file
 src/full_state_estimator.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/full_state_estimator.cpp.s
 .PHONY : src/full_state_estimator.cpp.s
 
 src/position_velocity_state_estimator.o: src/position_velocity_state_estimator.cpp.o
@@ -459,7 +459,7 @@ src/position_velocity_state_estimator.o: src/position_velocity_state_estimator.c
 
 # target to build an object file
 src/position_velocity_state_estimator.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.o
 .PHONY : src/position_velocity_state_estimator.cpp.o
 
 src/position_velocity_state_estimator.i: src/position_velocity_state_estimator.cpp.i
@@ -468,7 +468,7 @@ src/position_velocity_state_estimator.i: src/position_velocity_state_estimator.c
 
 # target to preprocess a source file
 src/position_velocity_state_estimator.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.i
 .PHONY : src/position_velocity_state_estimator.cpp.i
 
 src/position_velocity_state_estimator.s: src/position_velocity_state_estimator.cpp.s
@@ -477,7 +477,7 @@ src/position_velocity_state_estimator.s: src/position_velocity_state_estimator.c
 
 # target to generate assembly for a file
 src/position_velocity_state_estimator.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_state_estimator.cpp.s
 .PHONY : src/position_velocity_state_estimator.cpp.s
 
 src/position_velocity_yaw_state_estimator.o: src/position_velocity_yaw_state_estimator.cpp.o
@@ -486,7 +486,7 @@ src/position_velocity_yaw_state_estimator.o: src/position_velocity_yaw_state_est
 
 # target to build an object file
 src/position_velocity_yaw_state_estimator.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.o
 .PHONY : src/position_velocity_yaw_state_estimator.cpp.o
 
 src/position_velocity_yaw_state_estimator.i: src/position_velocity_yaw_state_estimator.cpp.i
@@ -495,7 +495,7 @@ src/position_velocity_yaw_state_estimator.i: src/position_velocity_yaw_state_est
 
 # target to preprocess a source file
 src/position_velocity_yaw_state_estimator.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.i
 .PHONY : src/position_velocity_yaw_state_estimator.cpp.i
 
 src/position_velocity_yaw_state_estimator.s: src/position_velocity_yaw_state_estimator.cpp.s
@@ -504,7 +504,7 @@ src/position_velocity_yaw_state_estimator.s: src/position_velocity_yaw_state_est
 
 # target to generate assembly for a file
 src/position_velocity_yaw_state_estimator.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/position_velocity_yaw_state_estimator.cpp.s
 .PHONY : src/position_velocity_yaw_state_estimator.cpp.s
 
 src/state_estimator.o: src/state_estimator.cpp.o
@@ -513,7 +513,7 @@ src/state_estimator.o: src/state_estimator.cpp.o
 
 # target to build an object file
 src/state_estimator.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.o
 .PHONY : src/state_estimator.cpp.o
 
 src/state_estimator.i: src/state_estimator.cpp.i
@@ -522,7 +522,7 @@ src/state_estimator.i: src/state_estimator.cpp.i
 
 # target to preprocess a source file
 src/state_estimator.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.i
 .PHONY : src/state_estimator.cpp.i
 
 src/state_estimator.s: src/state_estimator.cpp.s
@@ -531,7 +531,7 @@ src/state_estimator.s: src/state_estimator.cpp.s
 
 # target to generate assembly for a file
 src/state_estimator.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/crazyflie_state_estimator.dir/src/state_estimator.cpp.s
 .PHONY : src/state_estimator.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -540,7 +540,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/test/test_main.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -549,7 +549,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/test/test_main.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -558,7 +558,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/test/test_main.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/build.make crazyflie_state_estimator/CMakeFiles/test_crazyflie_state_estimator.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 # Help Target
@@ -621,6 +621,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

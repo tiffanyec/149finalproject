@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecs149_rst/final_project_workspace/src
+CMAKE_SOURCE_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecs149_rst/final_project_workspace/build
+CMAKE_BINARY_DIR = /home/eecs149_rst/149finalproject/final_project_workspace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/final_project_workspace/build/CMakeFiles /home/eecs149_rst/final_project_workspace/build/crazyflie_control_merger/CMakeFiles/progress.marks
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/final_project_workspace/build/CMakeFiles 0
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles /home/eecs149_rst/149finalproject/final_project_workspace/build/crazyflie_control_merger/CMakeFiles/progress.marks
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eecs149_rst/149finalproject/final_project_workspace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/clean
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/preinstall
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/preinstall
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ cmd_vel_converter_node: crazyflie_control_merger/CMakeFiles/cmd_vel_converter_no
 
 # fast build rule for target.
 cmd_vel_converter_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build.make crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build.make crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build
 .PHONY : cmd_vel_converter_node/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ no_yaw_merger_node: crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/r
 
 # fast build rule for target.
 no_yaw_merger_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build
 .PHONY : no_yaw_merger_node/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_crazyflie_control_merger: crazyflie_control_merger/CMakeFiles/_run_te
 
 # fast build rule for target.
 _run_tests_crazyflie_control_merger/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger.dir/build
 .PHONY : _run_tests_crazyflie_control_merger/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ visualization_msgs_generate_messages_py: crazyflie_control_merger/CMakeFiles/vis
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ run_tests_crazyflie_control_merger_gtest: crazyflie_control_merger/CMakeFiles/ru
 
 # fast build rule for target.
 run_tests_crazyflie_control_merger_gtest/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest.dir/build.make crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest.dir/build.make crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest.dir/build
 .PHONY : run_tests_crazyflie_control_merger_gtest/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ visualization_msgs_generate_messages_cpp: crazyflie_control_merger/CMakeFiles/vi
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ _run_tests_crazyflie_control_merger_gtest: crazyflie_control_merger/CMakeFiles/_
 
 # fast build rule for target.
 _run_tests_crazyflie_control_merger_gtest/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest.dir/build.make crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest.dir/build.make crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest.dir/build
 .PHONY : _run_tests_crazyflie_control_merger_gtest/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ test_crazyflie_control_merger: crazyflie_control_merger/CMakeFiles/test_crazyfli
 
 # fast build rule for target.
 test_crazyflie_control_merger/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build
 .PHONY : test_crazyflie_control_merger/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ visualization_msgs_generate_messages_eus: crazyflie_control_merger/CMakeFiles/vi
 
 # fast build rule for target.
 visualization_msgs_generate_messages_eus/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
 .PHONY : visualization_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ visualization_msgs_generate_messages_lisp: crazyflie_control_merger/CMakeFiles/v
 
 # fast build rule for target.
 visualization_msgs_generate_messages_lisp/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
 .PHONY : visualization_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ crazyflie_control_merger: crazyflie_control_merger/CMakeFiles/crazyflie_control_
 
 # fast build rule for target.
 crazyflie_control_merger/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build
 .PHONY : crazyflie_control_merger/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ visualization_msgs_generate_messages_nodejs: crazyflie_control_merger/CMakeFiles
 
 # fast build rule for target.
 visualization_msgs_generate_messages_nodejs/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make crazyflie_control_merger/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
 .PHONY : visualization_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ run_tests_crazyflie_control_merger: crazyflie_control_merger/CMakeFiles/run_test
 
 # fast build rule for target.
 run_tests_crazyflie_control_merger/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger.dir/build
 .PHONY : run_tests_crazyflie_control_merger/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ regular_control_merger_node: crazyflie_control_merger/CMakeFiles/regular_control
 
 # fast build rule for target.
 regular_control_merger_node/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build
 .PHONY : regular_control_merger_node/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/clean_test_results_crazyflie_control_merger.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/clean_test_results_crazyflie_control_merger.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/clean_test_results_crazyflie_control_merger.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/clean_test_results_crazyflie_control_merger.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ clean_test_results_crazyflie_control_merger: crazyflie_control_merger/CMakeFiles
 
 # fast build rule for target.
 clean_test_results_crazyflie_control_merger/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/clean_test_results_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/clean_test_results_crazyflie_control_merger.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/clean_test_results_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/clean_test_results_crazyflie_control_merger.dir/build
 .PHONY : clean_test_results_crazyflie_control_merger/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger: crazyfli
 
 # fast build rule for target.
 run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/build
 .PHONY : run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger/fast
 
 # Convenience name for target.
 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/rule:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/rule
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/rule
 .PHONY : crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/rule
 
 # Convenience name for target.
@@ -417,7 +417,7 @@ _run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger: crazyfl
 
 # fast build rule for target.
 _run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger/fast:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/build
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/_run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger.dir/build
 .PHONY : _run_tests_crazyflie_control_merger_gtest_test_crazyflie_control_merger/fast
 
 exec/cmd_vel_converter_node.o: exec/cmd_vel_converter_node.cpp.o
@@ -426,7 +426,7 @@ exec/cmd_vel_converter_node.o: exec/cmd_vel_converter_node.cpp.o
 
 # target to build an object file
 exec/cmd_vel_converter_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build.make crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/exec/cmd_vel_converter_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build.make crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/exec/cmd_vel_converter_node.cpp.o
 .PHONY : exec/cmd_vel_converter_node.cpp.o
 
 exec/cmd_vel_converter_node.i: exec/cmd_vel_converter_node.cpp.i
@@ -435,7 +435,7 @@ exec/cmd_vel_converter_node.i: exec/cmd_vel_converter_node.cpp.i
 
 # target to preprocess a source file
 exec/cmd_vel_converter_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build.make crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/exec/cmd_vel_converter_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build.make crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/exec/cmd_vel_converter_node.cpp.i
 .PHONY : exec/cmd_vel_converter_node.cpp.i
 
 exec/cmd_vel_converter_node.s: exec/cmd_vel_converter_node.cpp.s
@@ -444,7 +444,7 @@ exec/cmd_vel_converter_node.s: exec/cmd_vel_converter_node.cpp.s
 
 # target to generate assembly for a file
 exec/cmd_vel_converter_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build.make crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/exec/cmd_vel_converter_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/build.make crazyflie_control_merger/CMakeFiles/cmd_vel_converter_node.dir/exec/cmd_vel_converter_node.cpp.s
 .PHONY : exec/cmd_vel_converter_node.cpp.s
 
 exec/no_yaw_merger_node.o: exec/no_yaw_merger_node.cpp.o
@@ -453,7 +453,7 @@ exec/no_yaw_merger_node.o: exec/no_yaw_merger_node.cpp.o
 
 # target to build an object file
 exec/no_yaw_merger_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/exec/no_yaw_merger_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/exec/no_yaw_merger_node.cpp.o
 .PHONY : exec/no_yaw_merger_node.cpp.o
 
 exec/no_yaw_merger_node.i: exec/no_yaw_merger_node.cpp.i
@@ -462,7 +462,7 @@ exec/no_yaw_merger_node.i: exec/no_yaw_merger_node.cpp.i
 
 # target to preprocess a source file
 exec/no_yaw_merger_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/exec/no_yaw_merger_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/exec/no_yaw_merger_node.cpp.i
 .PHONY : exec/no_yaw_merger_node.cpp.i
 
 exec/no_yaw_merger_node.s: exec/no_yaw_merger_node.cpp.s
@@ -471,7 +471,7 @@ exec/no_yaw_merger_node.s: exec/no_yaw_merger_node.cpp.s
 
 # target to generate assembly for a file
 exec/no_yaw_merger_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/exec/no_yaw_merger_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/no_yaw_merger_node.dir/exec/no_yaw_merger_node.cpp.s
 .PHONY : exec/no_yaw_merger_node.cpp.s
 
 exec/regular_control_merger_node.o: exec/regular_control_merger_node.cpp.o
@@ -480,7 +480,7 @@ exec/regular_control_merger_node.o: exec/regular_control_merger_node.cpp.o
 
 # target to build an object file
 exec/regular_control_merger_node.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/exec/regular_control_merger_node.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/exec/regular_control_merger_node.cpp.o
 .PHONY : exec/regular_control_merger_node.cpp.o
 
 exec/regular_control_merger_node.i: exec/regular_control_merger_node.cpp.i
@@ -489,7 +489,7 @@ exec/regular_control_merger_node.i: exec/regular_control_merger_node.cpp.i
 
 # target to preprocess a source file
 exec/regular_control_merger_node.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/exec/regular_control_merger_node.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/exec/regular_control_merger_node.cpp.i
 .PHONY : exec/regular_control_merger_node.cpp.i
 
 exec/regular_control_merger_node.s: exec/regular_control_merger_node.cpp.s
@@ -498,7 +498,7 @@ exec/regular_control_merger_node.s: exec/regular_control_merger_node.cpp.s
 
 # target to generate assembly for a file
 exec/regular_control_merger_node.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/exec/regular_control_merger_node.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/build.make crazyflie_control_merger/CMakeFiles/regular_control_merger_node.dir/exec/regular_control_merger_node.cpp.s
 .PHONY : exec/regular_control_merger_node.cpp.s
 
 src/cmd_vel_converter.o: src/cmd_vel_converter.cpp.o
@@ -507,7 +507,7 @@ src/cmd_vel_converter.o: src/cmd_vel_converter.cpp.o
 
 # target to build an object file
 src/cmd_vel_converter.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/cmd_vel_converter.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/cmd_vel_converter.cpp.o
 .PHONY : src/cmd_vel_converter.cpp.o
 
 src/cmd_vel_converter.i: src/cmd_vel_converter.cpp.i
@@ -516,7 +516,7 @@ src/cmd_vel_converter.i: src/cmd_vel_converter.cpp.i
 
 # target to preprocess a source file
 src/cmd_vel_converter.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/cmd_vel_converter.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/cmd_vel_converter.cpp.i
 .PHONY : src/cmd_vel_converter.cpp.i
 
 src/cmd_vel_converter.s: src/cmd_vel_converter.cpp.s
@@ -525,7 +525,7 @@ src/cmd_vel_converter.s: src/cmd_vel_converter.cpp.s
 
 # target to generate assembly for a file
 src/cmd_vel_converter.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/cmd_vel_converter.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/cmd_vel_converter.cpp.s
 .PHONY : src/cmd_vel_converter.cpp.s
 
 src/control_merger.o: src/control_merger.cpp.o
@@ -534,7 +534,7 @@ src/control_merger.o: src/control_merger.cpp.o
 
 # target to build an object file
 src/control_merger.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/control_merger.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/control_merger.cpp.o
 .PHONY : src/control_merger.cpp.o
 
 src/control_merger.i: src/control_merger.cpp.i
@@ -543,7 +543,7 @@ src/control_merger.i: src/control_merger.cpp.i
 
 # target to preprocess a source file
 src/control_merger.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/control_merger.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/control_merger.cpp.i
 .PHONY : src/control_merger.cpp.i
 
 src/control_merger.s: src/control_merger.cpp.s
@@ -552,7 +552,7 @@ src/control_merger.s: src/control_merger.cpp.s
 
 # target to generate assembly for a file
 src/control_merger.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/control_merger.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/control_merger.cpp.s
 .PHONY : src/control_merger.cpp.s
 
 src/no_yaw_merger.o: src/no_yaw_merger.cpp.o
@@ -561,7 +561,7 @@ src/no_yaw_merger.o: src/no_yaw_merger.cpp.o
 
 # target to build an object file
 src/no_yaw_merger.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/no_yaw_merger.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/no_yaw_merger.cpp.o
 .PHONY : src/no_yaw_merger.cpp.o
 
 src/no_yaw_merger.i: src/no_yaw_merger.cpp.i
@@ -570,7 +570,7 @@ src/no_yaw_merger.i: src/no_yaw_merger.cpp.i
 
 # target to preprocess a source file
 src/no_yaw_merger.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/no_yaw_merger.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/no_yaw_merger.cpp.i
 .PHONY : src/no_yaw_merger.cpp.i
 
 src/no_yaw_merger.s: src/no_yaw_merger.cpp.s
@@ -579,7 +579,7 @@ src/no_yaw_merger.s: src/no_yaw_merger.cpp.s
 
 # target to generate assembly for a file
 src/no_yaw_merger.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/no_yaw_merger.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/no_yaw_merger.cpp.s
 .PHONY : src/no_yaw_merger.cpp.s
 
 src/regular_control_merger.o: src/regular_control_merger.cpp.o
@@ -588,7 +588,7 @@ src/regular_control_merger.o: src/regular_control_merger.cpp.o
 
 # target to build an object file
 src/regular_control_merger.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/regular_control_merger.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/regular_control_merger.cpp.o
 .PHONY : src/regular_control_merger.cpp.o
 
 src/regular_control_merger.i: src/regular_control_merger.cpp.i
@@ -597,7 +597,7 @@ src/regular_control_merger.i: src/regular_control_merger.cpp.i
 
 # target to preprocess a source file
 src/regular_control_merger.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/regular_control_merger.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/regular_control_merger.cpp.i
 .PHONY : src/regular_control_merger.cpp.i
 
 src/regular_control_merger.s: src/regular_control_merger.cpp.s
@@ -606,7 +606,7 @@ src/regular_control_merger.s: src/regular_control_merger.cpp.s
 
 # target to generate assembly for a file
 src/regular_control_merger.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/regular_control_merger.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/crazyflie_control_merger.dir/src/regular_control_merger.cpp.s
 .PHONY : src/regular_control_merger.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -615,7 +615,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/test/test_main.cpp.o
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -624,7 +624,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/test/test_main.cpp.i
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -633,7 +633,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-	cd /home/eecs149_rst/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/test/test_main.cpp.s
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(MAKE) -f crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/build.make crazyflie_control_merger/CMakeFiles/test_crazyflie_control_merger.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 # Help Target
@@ -701,6 +701,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/eecs149_rst/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/eecs149_rst/149finalproject/final_project_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

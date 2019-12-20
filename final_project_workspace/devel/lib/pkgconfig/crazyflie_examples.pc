@@ -1,8 +1,8 @@
-prefix=/home/eecs149_rst/final_project_workspace/devel
+prefix=/home/eecs149_rst/149finalproject/final_project_workspace/devel
 
 Name: crazyflie_examples
 Description: Description of crazyflie_examples
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/eecs149_rst/final_project_workspace/devel/lib 
+Libs: -L/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib 
 Requires: rospy std_msgs std_srvs crazyflie_msgs crazyflie_utils

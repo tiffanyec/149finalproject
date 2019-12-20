@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/position_velocity_yaw_state_lift_lqr_node.dir/exec/position_velocity_yaw_state_lift_lqr_node.cpp.o"
-  "/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_lqr/position_velocity_yaw_state_lift_lqr_node.pdb"
-  "/home/eecs149_rst/final_project_workspace/devel/lib/crazyflie_lqr/position_velocity_yaw_state_lift_lqr_node"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_lqr/position_velocity_yaw_state_lift_lqr_node.pdb"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/crazyflie_lqr/position_velocity_yaw_state_lift_lqr_node"
 )
 
 # Per-language clean rules from dependency scanning.

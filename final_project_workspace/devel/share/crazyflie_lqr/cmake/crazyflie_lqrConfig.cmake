@@ -67,14 +67,14 @@ set(crazyflie_lqr_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(crazyflie_lqr_SOURCE_PREFIX /home/eecs149_rst/final_project_workspace/src/crazyflie_lqr)
-  set(crazyflie_lqr_DEVEL_PREFIX /home/eecs149_rst/final_project_workspace/devel)
+  set(crazyflie_lqr_SOURCE_PREFIX /home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_lqr)
+  set(crazyflie_lqr_DEVEL_PREFIX /home/eecs149_rst/149finalproject/final_project_workspace/devel)
   set(crazyflie_lqr_INSTALL_PREFIX "")
   set(crazyflie_lqr_PREFIX ${crazyflie_lqr_DEVEL_PREFIX})
 else()
   set(crazyflie_lqr_SOURCE_PREFIX "")
   set(crazyflie_lqr_DEVEL_PREFIX "")
-  set(crazyflie_lqr_INSTALL_PREFIX /home/eecs149_rst/final_project_workspace/install)
+  set(crazyflie_lqr_INSTALL_PREFIX /home/eecs149_rst/149finalproject/final_project_workspace/install)
   set(crazyflie_lqr_PREFIX ${crazyflie_lqr_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(crazyflie_lqr_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/eecs149_rst/final_project_workspace/src/crazyflie_lqr/include " STREQUAL " ")
+if(NOT "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_lqr/include " STREQUAL " ")
   set(crazyflie_lqr_INCLUDE_DIRS "")
-  set(_include_dirs "/home/eecs149_rst/final_project_workspace/src/crazyflie_lqr/include")
+  set(_include_dirs "/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_lqr/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/eecs149_rst/final_project_workspace/src/crazyflie_lqr/include " ST
         message(FATAL_ERROR "Project 'crazyflie_lqr' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'crazyflie_lqr' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/eecs149_rst/final_project_workspace/src/crazyflie_lqr/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'crazyflie_lqr' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/eecs149_rst/149finalproject/final_project_workspace/src/crazyflie_lqr/${idir}'.  ${_report}")
     endif()
     _list_append_unique(crazyflie_lqr_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/eecs149_rst/final_project_workspace/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/eecs149_rst/149finalproject/final_project_workspace/devel/lib;/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

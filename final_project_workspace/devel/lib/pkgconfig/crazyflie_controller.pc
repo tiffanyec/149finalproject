@@ -1,8 +1,8 @@
-prefix=/home/eecs149_rst/final_project_workspace/devel
+prefix=/home/eecs149_rst/149finalproject/final_project_workspace/devel
 
 Name: crazyflie_controller
 Description: Description of crazyflie_controller
 Version: 0.0.1
 Cflags: 
-Libs: -L/home/eecs149_rst/final_project_workspace/devel/lib 
+Libs: -L/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib 
 Requires: 

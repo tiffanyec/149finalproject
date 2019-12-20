@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vrpn_client_node.dir/src/vrpn_client_node.cpp.o"
-  "/home/eecs149_rst/final_project_workspace/devel/lib/vrpn_client_ros/vrpn_client_node.pdb"
-  "/home/eecs149_rst/final_project_workspace/devel/lib/vrpn_client_ros/vrpn_client_node"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/vrpn_client_ros/vrpn_client_node.pdb"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/devel/lib/vrpn_client_ros/vrpn_client_node"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/eecs149_rst/final_project_workspace/src/vrpn_client_ros/src/vrpn_client_node.cpp" "/home/eecs149_rst/final_project_workspace/build/vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/src/vrpn_client_node.cpp.o"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/vrpn_client_ros/src/vrpn_client_node.cpp" "/home/eecs149_rst/149finalproject/final_project_workspace/build/vrpn_client_ros/CMakeFiles/vrpn_client_node.dir/src/vrpn_client_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,14 +17,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/eecs149_rst/final_project_workspace/src/vrpn_client_ros/include"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/src/vrpn_client_ros/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/eecs149_rst/final_project_workspace/build/vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/DependInfo.cmake"
+  "/home/eecs149_rst/149finalproject/final_project_workspace/build/vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

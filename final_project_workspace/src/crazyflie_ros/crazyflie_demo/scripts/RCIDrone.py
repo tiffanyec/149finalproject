@@ -29,7 +29,7 @@ class RCIDrone:
 
     def spec(self, advPos, disallowRepeats=False):
     	numLocs = len(self.targets)
-        advNoFly = set(self.targets) | { (self.k//2, self.k//2)}
+        advNoFly = set(self.targets) | { (self.k//2, self.k//2) }
     	failure = 0
     	success = 1
     	baseStates = set(

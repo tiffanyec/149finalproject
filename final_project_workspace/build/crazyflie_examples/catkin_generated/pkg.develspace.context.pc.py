@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "rospy;std_msgs;std_srvs;crazyflie_msgs;crazyflie_utils".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "crazyflie_examples"
-PROJECT_SPACE_DIR = "/home/eecs149_rst/final_project_workspace/devel"
+PROJECT_SPACE_DIR = "/home/eecs149_rst/149finalproject/final_project_workspace/devel"
 PROJECT_VERSION = "0.0.0"
